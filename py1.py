@@ -13,7 +13,7 @@
 str1 = str(input("enter string:"))
 uc = str1.upper()
 print(uc)
-#print("lower",str1.lower) not working
+print("lower",str1.lower()) 
 
 #3 Define a variable named "raise_salary_percentage" and get the salary raise 
 # percentage from the user, Now apply the raise to an employee
