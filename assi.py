@@ -30,7 +30,7 @@ def display_3_4_5_element(members):
 def my_list_store():
     print("\n Welcome to Our List Store !!! ")
     print("Please enter a list Comma seperated that you would want to perform Operation Upon")
-    members = input('Pratiksha,Kevin,Sachin,Yuvraj,Sania \n').split(',')
+    members = input('Enter a list :\n').split(',')
 
     while(True):
         print("\n*************** Menu **********************")
