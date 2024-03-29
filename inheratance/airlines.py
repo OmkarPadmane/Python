@@ -9,9 +9,14 @@
 # main method:
 # Make two examples of tickets being sold to passengers.
 # display tickets booked details 
+
+#childe class
 import random
+
+#line for importing parrent class form file
 from empclass import Employee
 
+# inheriting parrent class  (Employee is parrent class)
 class Airlines(Employee):
     
     Airline = "Podaaa"
@@ -42,13 +47,14 @@ class Airlines(Employee):
         
         
 def main():
+    # objet of childe class is ticket
     ticket=Airlines()
     d=input("ENTER THE DEPARTURE CITY : ")
     a=input("ENTER THE ARRIVAL CITY : ")
     ticket.setter(d,a)
     ticket.flight_no()
     ticket.seat_assign()     
-    ticket.book_tik()
+    ticket.book_tik()    #calling parrent class function using childe object
      
     
     
